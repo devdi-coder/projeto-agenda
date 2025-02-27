@@ -1,3 +1,4 @@
+# pyright: reportMissingModuleSource=false
 from django.shortcuts import render, redirect
 from contact.models import Contact
 from django.http import Http404
